@@ -11,6 +11,8 @@ Después de la instalación de ROS, se realiza la conexión de este con MATLAB a
 
 Este código permite publicar mensajes a través del ``rospublisher`` para modificar la pose de la tortuga. Luego, con ``velMsg.Angular.Z`` y ``velMsg.Linear.X`` se le asignan valores a la velocidad angular en Z y velocidad linear en X. Finalmente, con ``rossubscriber("/turtle1/pose")`` se suscribe al tópico de la pose de la tortuga para recibirla con ``receive``.
 ![Screenshot from 2024-04-14 22-12-51](https://github.com/JoanPinilla/LAB-3/assets/118155154/a26d054c-4b34-4675-90e0-24abf3c2b3dc)
+![Imagen de WhatsApp 2024-04-14 a las 20 35 34_c231ff7a](https://github.com/JoanPinilla/LAB-3/assets/118155154/e1812dcd-19e9-4592-b528-68fa0ba6a6d7)
+
 
 
 ## UTILIZADO PYTHON
